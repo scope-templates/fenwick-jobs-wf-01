@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ord-3101",
+    "category": "orders",
+    "title": "Bulk order from Lindqvist Studio",
+    "summary": "Mara Lindqvist placed a 48-unit order for the autumn catalogue, with delivery requested before 20 October. Payment cleared on the first attempt.",
+    "publishedAt": "2026-10-05T08:12:00Z"
+  },
+  {
+    "id": "sup-882",
+    "category": "support",
+    "title": "Login loop on the mobile site",
+    "summary": "Three customers were sent back to the login page after signing in on Safari. Clearing the session cookie works around it; a proper fix is planned for the next release.",
+    "publishedAt": "2026-10-05T10:40:00Z"
+  },
+  {
+    "id": "rel-140",
+    "category": "releases",
+    "title": "Checkout 2.4.0",
+    "summary": "Address autocomplete now covers the whole of the Nordics, and the order confirmation email shows the delivery window.",
+    "publishedAt": "2026-10-05T14:05:00Z"
+  },
+  {
+    "id": "bil-517",
+    "category": "billing",
+    "title": "September invoices sent",
+    "summary": "All 212 September invoices went out on schedule. Two bounced and need a manual follow-up.",
+    "publishedAt": "2026-10-05T16:30:00Z"
+  },
+  {
+    "id": "ord-3102",
+    "category": "orders",
+    "title": "First order from Wierzba & Co",
+    "summary": "Tomasz Wierzba ordered twelve sample sets after the trade fair. The account is flagged for a follow-up call once the samples arrive.",
+    "publishedAt": "2026-10-06T07:55:00Z"
+  },
+  {
+    "id": "sup-883",
+    "category": "support",
+    "title": "Refund delayed for order 3088",
+    "summary": "Jonah Bell's refund was issued on 1 October but has not reached his card. The payment provider confirmed it is in transit and should settle within two days.",
+    "publishedAt": "2026-10-06T09:20:00Z"
+  },
+  {
+    "id": "rel-141",
+    "category": "releases",
+    "title": "Inventory sync hotfix",
+    "summary": "Stock levels no longer drift after a cancelled order. The sync now re-reads the warehouse count instead of applying a delta.",
+    "publishedAt": "2026-10-06T11:45:00Z"
+  },
+  {
+    "id": "bil-518",
+    "category": "billing",
+    "title": "Card declines down 12%",
+    "summary": "Retrying declined cards 24 hours later recovered 31 payments last week. The retry window stays at one day for now.",
+    "publishedAt": "2026-10-06T17:10:00Z"
+  },
+  {
+    "id": "ord-3103",
+    "category": "orders",
+    "title": "Repeat order from Haddad Interiors",
+    "summary": "Leila Haddad reordered the spring collection in the same quantities as last year. Dispatch is booked for Thursday.",
+    "publishedAt": "2026-10-07T08:30:00Z"
+  },
+  {
+    "id": "sup-884",
+    "category": "support",
+    "title": "CSV export missing the notes column",
+    "summary": "Priya Raman reported that the order export drops the notes column when any note contains a line break. Reproduced; fix scheduled for 2.4.2.",
+    "publishedAt": "2026-10-07T10:05:00Z"
+  },
+  {
+    "id": "rel-142",
+    "category": "releases",
+    "title": "Search facets",
+    "summary": null,
+    "publishedAt": "2026-10-07T13:20:00Z"
+  },
+  {
+    "id": "bil-519",
+    "category": "billing",
+    "title": "Dunning emails resumed",
+    "summary": "The overdue-invoice reminders paused on 30 September are running again. 17 reminders went out this morning.",
+    "publishedAt": "2026-10-07T15:45:00Z"
+  }
+]

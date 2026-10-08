@@ -1,0 +1,23 @@
+{
+  "name": "fenwick-jobs",
+  "version": "1.0.0",
+  "description": "Daily digest as a workflow task",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --enable-source-maps dist/workflow.js",
+    "digest": "tsx src/digest.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@renderinc/sdk": "1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.1",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
